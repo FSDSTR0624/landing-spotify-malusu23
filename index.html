@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">,
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="menu.css" />
+    
+  </head>
+	<body>
+
+    <div>
+      <header class="mh-header">
+        <img class="menuhamb" src="imagenes/menú-tipo-hamburguesa-modo-oscuro-gyph-ui-icono-tres-líneas-más-opciones-diseño-de-interfaz-usuario-.jpg" >
+        <div class="mh-container">
+          <div class="mh-logo"><img src="imagenes/spotify.jpg" /><p class="text">Spotify</p></div>
+          <nav class="navigation">
+            <ul class="menu-general">
+              <li class="menuheader">
+                <a href="#" class="texto-menu">Premiun</a>
+                <div class="submenuPremiun">
+                  <ul class="submenu">
+                    <li class="plan svelte">
+                      <a href="#" class="svelte-submenu">
+                        <span class="plan-title">Premium Individual</span>
+                        <span class="plan-subtitle">1 cuenta para una persona.</span>
+                      </a>
+                    </li>
+                    <li class="plan svelte">
+                      <a href="#" class="svelte-submenu">
+                        <span class="plan-title">Premium Individual</span>
+                        <span class="plan-subtitle">1 cuenta para una persona.</span>
+                      </a>
+                    </li>
+                    <li class="plan svelte">
+                      <a href="#" class="svelte-submenu">
+                        <span class="plan-title">Premium Individual</span>
+                        <span class="plan-subtitle">1 cuenta para una persona.</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menuheader"><a href="#" class="texto-menu">Asistencia</a></li>
+              <li class="menuheader"><a href="#" class="texto-menu">Descargar</a></li>
+              <li role="separator" id="barra" class="texto-menu barra">|</li>
+              <li class="menuheader"><a href="#" class="texto-menu">Registrarse</a></li>
+              <li class="menuheader"><a href="#" class="texto-menu">Iniciar Sesión</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div class="container-general">
+      <section class="section1">
+        <div class="section-content">
+           <div class="section-promo">
+                <div id="containertext">
+
+                <h1 id="h1promo">Llévate 3 meses de Premiun por el precio de 1.</h1>
+                <h2 class="text" id="h2promo">Disfruta de música sin anuncios y sin interrupciones cuando quieras y en cualquier parte.</h2>
+                </div>
+                <div id="space">
+
+                </div> 
+                <div>
+                    <img id= "flamenco" alt="imagen de flamenco" src= "imagenes/flamenco.png"  > 
+                </div>
+               </div> 
+           
+          <div class="section-oferta">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="blue" width="20px" height="20px">
+              <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6V9.5c0-3.07-1.63-5.64-4.5-6.32V2c0-.83-.67-1.5-1.5-1.5S10.5 1.17 10.5 2v1.18C7.63 3.86 6 6.43 6 9.5V16l-1.8 1.8c-.18.18-.3.43-.3.7 0 .55.45 1 1 1h14c.55 0 1-.45 1-1 0-.27-.12-.52-.3-.7L18 16zm-1.3 1H7.3L8 15.3V9.5c0-2.48 2.02-4.5 4.5-4.5s4.5 2.02 4.5 4.5v5.8l.7.7z"/>
+            </svg>
+            <p class="text">La oferta termina en 8 días</p>
+          </div>
+          <div class="section-botones">
+            <div class="section-btn btn01">
+              <a href="#">Conseguir Premium Individual</a>
+            </div>
+            <div class="section-btn btn02">
+              <a href="#">Ver todos los planes</a>
+            </div>
+          </div>
+          <div class="section-condiciones">
+            <p class="text">Solo para el plan Individual. Luego, 10,99 € al mes.
+              <a class="terminos" href="#">Consulta los Términos y condiciones</a>
+              Oferta válida solo para usuarios/as que aún no hayan probado Premium. La oferta termina el 15 de julio de 2024.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="section2-content">
+          <h2 class="text">Siente la diferencia</h2>
+          <h3 class="text">Pásate a Premium y disfruta del control total de lo que escuchas. Cancela cuando quieras.</h3>
+        </div>
+        <table class="section2-table">
+          <thead>
+            <tr>
+              <th class="thead-th01"><div>Qué incluye</div></th>
+              <th class="thead-th"><div>Plan<br>Spotify Free</div></th>
+              <th class="thead-th"><div>Planes <br>Premium de Spotify</div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="first-column"><p>Escucha tu música favorita sin anuncios</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <th class="first-column"><p>Descarga de canciones para disfrutarlas sin conexión</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <th class="first-column"><p>Escucha canciones en cualquier orden</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <th class="first-column"><p>Calidad del audio alta</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <th class="first-column"><p>Escucha lo que quieras con tus amigos, en tiempo real</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <th class="first-column"><p>Organiza la cola de reproducción</p></th>
+              <th>
+                <div>
+                  <svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div>
+                  <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" width="32px" height="32px" class="svg-check">
+                    <path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm16.398-2.38a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path>
+                  </svg>
+                </div>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section3">
+        <div class="section3-content">
+          <h2 class="text">Planes asequibles para cualquier situación</h2>
+          <h3 class="text">Elige un plan Premium y escucha música sin anuncios y sin límites en teléfonos, altavoces y otros dispositivos. Paga de varias formas. Cancela cuando quieras.</h3>
+          <div class="tarjetas">
+            <ul>
+              <li><div class="cards"><img src="imagenes/visa.jpg" /></div></li>
+              <li><div class="cards"><img src="imagenes/mastercard.jpg" /></div></li>
+              <li><div class="cards"><img src="imagenes/american.png" /></div></li>
+              <li><div class="cards"><img src="imagenes/paypal.jpg" /></div></li>
+            </ul>
+          </div>
+          <div class="list-planes">
+            <h3>Todos los planes Premium incluyen lo siguiente:</h3>
+            <ul class="check-list">
+              <li>Escucha tu música favorita sin anuncios</li>
+              <li>Descarga de canciones para disfrutarlas sin conexión</li>
+              <li>Escucha canciones en cualquier orden</li>
+              <li>Calidad del audio alta</li>
+              <li>Escucha lo que quieras con tus amigos, en tiempo real</li>
+              <li>Organiza la cola de reproducción</li>
+            </ul>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="section4">
+        <!-- <div> -->
+        <div class="card">
+          <div class="price-banner card01-banner">10,99 € durante 3 meses</div>
+          <div class="content">
+              <h2>Premium</h2>
+              <p class="content-p01 card01-p01">Individual</p>
+              <p class="content-p02">10,99 € durante 3 meses</p>
+              <p class="content-p03">Después, 10,99 €/mes</p>
+              <hr>
+              <ul>
+                  <li>1 cuenta Premium</li>
+                  <li>Cancela cuando quieras</li>
+              </ul>
+              <button class="premium-btn btn-card01">Conseguir Premium Individual</button>
+              <p class="footer">
+                  Solo para el plan Individual. Luego, 10,99 € al mes. Consulta los Términos y condiciones. Oferta válida solo para usuarios/as que aún no hayan probado Premium. La oferta termina el 15 de julio de 2024.
+              </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="price-banner card02-banner">Gratis durante 1 mes</div>
+          <div class="content">
+              <h2>Premium</h2>
+              <p class="content-p01 card02-p01">Estudiantes</p>
+              <p class="content-p02">Gratis durante 1 mes</p>
+              <p class="content-p03">Después, 5,99 €/mes</p>
+              <hr>
+              <ul class="ul-card02">
+                  <li>1 cuenta Premium verificada</li>
+                  <li>Descuento para estudiantes que cumplan los requisitos</li>
+                  <li>Cancela cuando quieras</li>
+              </ul>
+              <button class="premium-btn btn-card02">Probar gratis durante 1 mes</button>
+              <p class="footer">
+                Gratis durante 1 mes. Luego, 5,99 € al mes. Oferta disponible solo para estudiantes matriculados en un centro de educación superior acreditado y que no hayan probado Premium. Consulta las condiciones.
+              </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+              <h3 class="card03-h2">Premium</h3>
+              <p class="content-p01 card03-p01">Duo</p>
+              <p class="content-p02">14,99 € al mes</p>
+              <hr>
+              <ul class="ul-card03">
+                  <li>2 cuentas Premium</li>
+                  <li>Cancela cuando quieras</li>
+              </ul>
+              <button class="premium-btn btn-card03">Conseguir Premium Duo</button>
+              <p class="footer-card03">
+                Para parejas que convivan. Consulta las condiciones.
+              </p>
+          </div>
+        </div>
+        
+      <!-- </div> -->
+      </section>
+      <section class="section4b">
+        <div class="card">
+          <div class="content4b">
+              <h3 class="card04-h2">Premium</h3>
+              <p class="content-p01 card04-p01">Familiar</p>
+              <p class="content-p02">17,99 € al mes</p>
+              <hr>
+              <ul class="ul-card04">
+                  <li>Hasta 6 cuentas Premium</li>
+                  <li>Controla el contenido etiquetado como explícito</li>
+                  <li>Cancela cuando quieras</li>
+              </ul>
+              <button class="premium-btn btn-card04">Conseguir Premium Familiar</button>
+              <p class="footer">
+                Para hasta 6 miembros de una familia que convivan. Consulta las condiciones.
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section5">
+        <h2 class="text">¿Tienes alguna pregunta?</h2>
+        <p class="text">Tenemos las respuestas.</p>
+        <h4 class="text">Encontrarás más respuestas en nuestro sitio de asistencia.</h4>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(1)">
+              <h3 class="title">¿Cómo funciona la prueba de Spotify Premium?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent01">
+            <p class="text">Si no has utilizado nunca Premium, es posible que puedas probarlo gratis (o a un precio reducido).
+              <br><br>
+              Aunque sea una prueba, tendrás que indicar una forma de pago válida para registrarte. Usaremos esa información para confirmar tu país o región y cobrarte si quieres quedarte con Premium cuando termine la oferta.
+              <br><br>
+              Te enviaremos un recordatorio 7 días antes de que finalice la prueba. Se aplican términos y restricciones por país.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(2)">
+              <h3 class="title">¿Cómo cancelo mi plan Premium?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent02">
+              <p class="text">
+                Puedes cancelar fácilmente el plan Premium cuando quieras online en la página de tu cuenta. Seguirás con Premium hasta la fecha de facturación siguiente y, después, la cuenta pasará al plan gratuito.
+                <br><br>
+                No perderás las listas ni la música guardada, que podrás escuchar con anuncios en la cuenta gratuita.
+              </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(3)">
+              <h3 class="title">¿Cómo funciona el plan Premium Duo?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent03">
+            <p class="text">
+              Premium Duo es un plan para parejas que vivan juntas. Es más barato que tener dos cuentas de Premium Individual. Te pediremos la dirección para confirmar que ambos miembros vivís allí. Podrás invitar a una persona al plan inmediatamente después de la compra. Cada miembro tendrá una cuenta Premium independiente, así que podréis escuchar contenido a la vez. Cada uno tendrá sus propias listas y música guardada. El otro miembro de la cuenta no podrá ver lo que estás escuchando.
+              <br><br>
+              Obtén más información sobre Premium Duo.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(4)">
+              <h3 class="title">¿Cómo funciona el plan Premium Familiar?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent04">
+              <p class="text">
+                Premium Familiar es un plan para hasta 6 familiares que vivan en el mismo hogar. Es más barato que tener una cuenta de Premium Individual por cada persona. Te pediremos la dirección para confirmar que todos los miembros vivís allí. Podrás invitar personas al plan inmediatamente después de la compra. Cada miembro tendrá una cuenta Premium independiente, así que podréis escuchar contenido a la vez. Cada uno tendrá sus propias listas y música guardada. Los otros miembros de la cuenta no podrán ver lo que estás escuchando.
+                <br><br>
+                Obtén más información sobre Premium Familiar.
+              </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(5)">
+              <h3 class="title">¿Cómo funciona el plan Premium para Estudiantes?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent05">
+              <p class="text">
+                Si te has matriculado en una universidad o centro similar acreditado y eres mayor de 18 años, sí. Puedes disfrutar de Premium para Estudiantes durante un máximo de 4 años.
+                <br><br>
+                Obtén más información sobre Premium para Estudiantes.
+              </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-header" onclick="toggleContent(6)">
+              <h3 class="title">¿Cuánto cuesta Spotify Premium en España?</h3>
+              <div class="icon">&#x2714;</div>
+          </div>
+          <div class="row-content" id="rowContent06">
+              <p class="text">
+                Los precios de Spotify Premium en España son diferentes según el plan Premium que elijas: el plan Spotify Premium Individual cuesta 10,99 € al mes; Premium Duo, 14,99 € al mes; Premium Familiar, 17,99 € al mes; y Premium para Estudiantes, 5,99 € al mes. Si no has utilizado nunca un plan Premium, es posible que puedas probarlo gratis (o a un precio reducido). Se aplican términos y restricciones por país.
+              </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="footer-principal">
+      <div class="footer-content">
+        <div class="footer-logo"><img src="imagenes/spotify.jpg" /><p class="text">Spotify</p></div>
+        <div class="footer-ul">
+          <ul class="menufooter-ul">
+            <h2>EMPRESA</h2>
+            <li class="text">Acerca de</li>
+            <li class="text">Empleo</li>
+            <li class="text">For the Record</li>
+          </ul>
+          <ul>
+            <h2>COMUNIDADES</h2>
+            <li class="text">Para artistas</li>
+            <li class="text">Desarrolladores</li>
+            <li class="text">Publicidad</li>
+            <li class="text">Inversores</li>
+            <li class="text">Proveedores</li>
+          </ul>
+          <ul>
+            <h2>ENLACES ÚTILES</h2>
+            <li class="text">Asistencia</li>
+            <li class="text">Reproductor web</li>
+            <li class="text">App gratis para móvil</li>
+          </ul>
+          <ul>
+            <h2>PLANES DE SPOTIFY</h2>
+            <li class="text">Premium Individual</li>
+            <li class="text">Premium Duo</li>
+            <li class="text">Premium Familiar</li>
+            <li class="text">Premium para Estudiantes</li>
+            <li class="text">Spotify Free</li>
+          </ul>
+        </div>
+        <div class="footer-redes">
+          <ul>
+            <li><img class="img-redes" src="imagenes/instagram.webp" /></li>
+            <li><img class="img-redes" src="imagenes/twitter.png" /></li>
+            <li><img class="img-redes" src="imagenes/facebook.webp" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-localidad">
+        <a href="#">
+          <svg width="12" height="13" viewBox="0 0 12 13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="svelte-184rsfv">
+            <path d="M6 0.624023C8.07255 0.624023 9.90309 1.68041 10.9815 3.28299C10.9819 3.28367 10.9822 3.28403 10.9825 3.28438C11.0029 3.30998 11.0209 3.33677 11.0363 3.36446C11.6453 4.30352 12 5.42315 12 6.62402C12 9.92265 9.32436 12.6079 6.02962 12.624C6.02732 12.6241 6.02495 12.6241 6.02258 12.6241L6 12.624C2.69149 12.624 0 9.93253 0 6.62402C0 3.31571 2.69149 0.624023 6 0.624023ZM6 1.78528C5.80411 1.78528 5.61089 1.79698 5.42102 1.81972C5.39755 1.91375 5.34896 2.0023 5.2765 2.07641L3.75157 3.63714C3.64024 3.75103 3.48978 3.812 3.33616 3.812C3.26752 3.812 3.19848 3.7998 3.1318 3.77483C2.91623 3.69359 2.76891 3.49277 2.75652 3.26265L2.74444 3.04725C1.77228 3.93289 1.16125 5.20844 1.16125 6.62402C1.16125 6.90513 1.18535 7.1807 1.23158 7.44881L2.11909 8.18538C2.12814 8.19266 2.13699 8.20053 2.14564 8.20859L2.91981 8.93437C2.99003 9.00007 3.04274 9.08228 3.07323 9.17374L3.37633 10.0793L3.83343 10.3016H4.86133C5.01514 10.3016 5.16285 10.3625 5.27182 10.4715L6.25621 11.4561C8.80567 11.3224 10.8387 9.20617 10.8387 6.62402C10.8387 5.8726 10.6666 5.16063 10.3596 4.52549L9.45716 5.24616L9.62455 5.6122C9.65956 5.68812 9.67726 5.77053 9.67726 5.85393V6.60784C9.67726 6.78014 9.60075 6.94358 9.46857 7.05393C9.3362 7.16407 9.16154 7.2103 8.99219 7.17902L8.05556 7.00751L8.52643 8.28855C8.58347 8.44354 8.57167 8.61544 8.49417 8.76139L7.67162 10.3097C7.58211 10.4783 7.41628 10.5907 7.22969 10.6136L7.15866 10.6179C6.94387 10.6179 6.74659 10.4991 6.64589 10.3093L6.25231 9.56742C6.24563 9.55444 6.23913 9.54126 6.23323 9.52788L5.91027 8.78833L5.5222 8.25412L4.15443 8.44118C4.0551 8.45475 3.9538 8.44255 3.86057 8.40518L2.68811 7.93765C2.46526 7.84855 2.3201 7.632 2.32244 7.39204L2.33879 5.84783C2.34095 5.65035 2.44304 5.46763 2.61022 5.3624L4.57554 4.12641C4.81058 3.97869 5.11781 4.01783 5.30801 4.22062L5.95905 4.91395L6.7818 5.23062L7.05303 5.13365L5.90181 3.48933C5.77849 3.3131 5.76256 3.08317 5.86051 2.89179L6.41732 1.80311C6.27976 1.7913 6.14057 1.78528 6 1.78528Z" fill="#8F8F8F">
+            </path>
+          </svg>
+          España (Español)
+        </a>
+      </div>
+
+      <div class="footer-politicas">
+        <ul class="menufooter-politicas">
+          <li class="text">Legal</li>
+          <li class="text">Centro de seguridad y privacidad</li>
+          <li class="text">Política de Privacidad</li>
+          <li class="text">Configuración de cookies</li>
+          <li class="text">Información sobre los anuncios</li>
+          <li class="text">Accesibilidad</li>
+        </ul>
+      </div>
+
+    </div>
+    
+         
+    <script src="script.js"></script>
+	</body>
+</html>

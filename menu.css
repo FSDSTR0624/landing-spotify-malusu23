@@ -1,0 +1,174 @@
+.mh-header{
+    z-index: 1020;
+    right: 0;
+    left: 0;
+    background: #000;
+}
+
+.mh-container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mh-logo{
+    margin-top: 15px;
+    display: flex;
+}
+
+.mh-logo > img{
+    margin: 0;
+    height: 60px;
+    background: white;
+}
+
+.mh-logo > p{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.navigation{
+    display: inline-block;
+}
+
+.menu-general{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-general li{
+    list-style: none;
+}
+
+
+.texto-menu{
+    color: #fff;
+    padding: 28px 17px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra{
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+}
+
+.submenuPremiun {
+    display: none;
+    position: absolute;
+}
+
+.submenu{
+    width: 320px;
+    list-style: none;
+    padding: 10px;
+}
+
+
+.plan{
+    background-color: #282828;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.svelte-submenu{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 30px;
+}
+
+
+.plan-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin: 4px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plan-subtitle{
+    font-size: 12px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.texto-menu:hover{
+    color: #1db954;
+}
+
+li:hover .submenuPremiun {
+    display: block; /* Muestra el submenú al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    display: flex;
+    background-color: black;
+    padding: 30px 0;
+    justify-content: center;
+    
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    padding: 28px 17px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.menu > li > a:hover {
+    color: #1db954;
+}
+
+
+
+
+.barrita{
+    color: white;
+    padding: 28px 17px;
+}
+
+
+
+.subtitle{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.submenu li a:hover {
+    background-color: black;
+}
